@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC54C9872BB3FD27007798C6 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54C9862BB3FD27007798C6 /* SuccessViewController.swift */; };
+		FC92517D2BB2C6DF00ED0347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92517C2BB2C6DF00ED0347 /* AppDelegate.swift */; };
+		FC92517F2BB2C6DF00ED0347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92517E2BB2C6DF00ED0347 /* SceneDelegate.swift */; };
+		FC9251812BB2C6DF00ED0347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9251802BB2C6DF00ED0347 /* ViewController.swift */; };
+		FC9251842BB2C6E000ED0347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9251822BB2C6E000ED0347 /* Main.storyboard */; };
+		FC9251872BB2C6E000ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC9251852BB2C6E000ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.xcdatamodeld */; };
+		FC9251892BB2C6E100ED0347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9251882BB2C6E100ED0347 /* Assets.xcassets */; };
+		FC92518C2BB2C6E100ED0347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC92518A2BB2C6E100ED0347 /* LaunchScreen.storyboard */; };
+		FC9251B12BB2C70600ED0347 /* LazyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9251B02BB2C70600ED0347 /* LazyContainer.swift */; };
+		FC9251B32BB2C74500ED0347 /* LocalDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9251B22BB2C74500ED0347 /* LocalDatabaseManager.swift */; };
+		FC9251B52BB2C91B00ED0347 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9251B42BB2C91B00ED0347 /* AccountViewModel.swift */; };
+		FC9251B72BB2C99700ED0347 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9251B62BB2C99700ED0347 /* LoginUser.swift */; };
+		FC9251B92BB2CA6800ED0347 /* UserSettingsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9251B82BB2CA6800ED0347 /* UserSettingsHandler.swift */; };
+		FCFCB0602BBD865E00872CC5 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFCB05F2BBD865E00872CC5 /* EditViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC54C9862BB3FD27007798C6 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		FC9251792BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-Account Login with Core Data (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC92517C2BB2C6DF00ED0347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC92517E2BB2C6DF00ED0347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC9251802BB2C6DF00ED0347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC9251832BB2C6E000ED0347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9251862BB2C6E000ED0347 /* Multi_Acccunt_Login_with_Core_Data__iOS_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Multi_Acccunt_Login_with_Core_Data__iOS_.xcdatamodel; sourceTree = "<group>"; };
+		FC9251882BB2C6E100ED0347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC92518B2BB2C6E100ED0347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC92518D2BB2C6E100ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multi_Account_Login_with_Core_Data__iOS_.entitlements; sourceTree = "<group>"; };
+		FC92518E2BB2C6E100ED0347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9251B02BB2C70600ED0347 /* LazyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyContainer.swift; sourceTree = "<group>"; };
+		FC9251B22BB2C74500ED0347 /* LocalDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDatabaseManager.swift; sourceTree = "<group>"; };
+		FC9251B42BB2C91B00ED0347 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		FC9251B62BB2C99700ED0347 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		FC9251B82BB2CA6800ED0347 /* UserSettingsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsHandler.swift; sourceTree = "<group>"; };
+		FCFCB05F2BBD865E00872CC5 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9251762BB2C6DF00ED0347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9251702BB2C6DF00ED0347 = {
+			isa = PBXGroup;
+			children = (
+				FC92517B2BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS) */,
+				FC92517A2BB2C6DF00ED0347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC92517A2BB2C6DF00ED0347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9251792BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC92517B2BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				FC92517C2BB2C6DF00ED0347 /* AppDelegate.swift */,
+				FC92517E2BB2C6DF00ED0347 /* SceneDelegate.swift */,
+				FC9251802BB2C6DF00ED0347 /* ViewController.swift */,
+				FC54C9862BB3FD27007798C6 /* SuccessViewController.swift */,
+				FCFCB05F2BBD865E00872CC5 /* EditViewController.swift */,
+				FC9251B02BB2C70600ED0347 /* LazyContainer.swift */,
+				FC9251B22BB2C74500ED0347 /* LocalDatabaseManager.swift */,
+				FC9251B42BB2C91B00ED0347 /* AccountViewModel.swift */,
+				FC9251B62BB2C99700ED0347 /* LoginUser.swift */,
+				FC9251B82BB2CA6800ED0347 /* UserSettingsHandler.swift */,
+				FC9251822BB2C6E000ED0347 /* Main.storyboard */,
+				FC9251882BB2C6E100ED0347 /* Assets.xcassets */,
+				FC92518A2BB2C6E100ED0347 /* LaunchScreen.storyboard */,
+				FC92518D2BB2C6E100ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.entitlements */,
+				FC92518E2BB2C6E100ED0347 /* Info.plist */,
+				FC9251852BB2C6E000ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.xcdatamodeld */,
+			);
+			path = "Multi-Account Login with Core Data (iOS)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9251782BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9251A72BB2C6E200ED0347 /* Build configuration list for PBXNativeTarget "Multi-Account Login with Core Data (iOS)" */;
+			buildPhases = (
+				FC9251752BB2C6DF00ED0347 /* Sources */,
+				FC9251762BB2C6DF00ED0347 /* Frameworks */,
+				FC9251772BB2C6DF00ED0347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-Account Login with Core Data (iOS)";
+			productName = "Multi-Acccunt Login with Core Data (iOS)";
+			productReference = FC9251792BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9251712BB2C6DF00ED0347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FC9251782BB2C6DF00ED0347 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FC9251742BB2C6DF00ED0347 /* Build configuration list for PBXProject "Multi-Account Login with Core Data (iOS)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9251702BB2C6DF00ED0347;
+			productRefGroup = FC92517A2BB2C6DF00ED0347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9251782BB2C6DF00ED0347 /* Multi-Account Login with Core Data (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9251772BB2C6DF00ED0347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC92518C2BB2C6E100ED0347 /* LaunchScreen.storyboard in Resources */,
+				FC9251892BB2C6E100ED0347 /* Assets.xcassets in Resources */,
+				FC9251842BB2C6E000ED0347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9251752BB2C6DF00ED0347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9251B32BB2C74500ED0347 /* LocalDatabaseManager.swift in Sources */,
+				FC9251B52BB2C91B00ED0347 /* AccountViewModel.swift in Sources */,
+				FC9251B72BB2C99700ED0347 /* LoginUser.swift in Sources */,
+				FC9251872BB2C6E000ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.xcdatamodeld in Sources */,
+				FC9251B92BB2CA6800ED0347 /* UserSettingsHandler.swift in Sources */,
+				FC9251B12BB2C70600ED0347 /* LazyContainer.swift in Sources */,
+				FC9251812BB2C6DF00ED0347 /* ViewController.swift in Sources */,
+				FC92517D2BB2C6DF00ED0347 /* AppDelegate.swift in Sources */,
+				FC54C9872BB3FD27007798C6 /* SuccessViewController.swift in Sources */,
+				FCFCB0602BBD865E00872CC5 /* EditViewController.swift in Sources */,
+				FC92517F2BB2C6DF00ED0347 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC9251822BB2C6E000ED0347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9251832BB2C6E000ED0347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC92518A2BB2C6E100ED0347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC92518B2BB2C6E100ED0347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9251A52BB2C6E200ED0347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9251A62BB2C6E200ED0347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9251A82BB2C6E200ED0347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Multi-Account Login with Core Data (iOS)/Multi_Account_Login_with_Core_Data__iOS_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Multi-Account Login with Core Data (iOS)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Multi-Account-Login-with-Core-Data--iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC9251A92BB2C6E200ED0347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Multi-Account Login with Core Data (iOS)/Multi_Account_Login_with_Core_Data__iOS_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Multi-Account Login with Core Data (iOS)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Multi-Account-Login-with-Core-Data--iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9251742BB2C6DF00ED0347 /* Build configuration list for PBXProject "Multi-Account Login with Core Data (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9251A52BB2C6E200ED0347 /* Debug */,
+				FC9251A62BB2C6E200ED0347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9251A72BB2C6E200ED0347 /* Build configuration list for PBXNativeTarget "Multi-Account Login with Core Data (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9251A82BB2C6E200ED0347 /* Debug */,
+				FC9251A92BB2C6E200ED0347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC9251852BB2C6E000ED0347 /* Multi_Account_Login_with_Core_Data__iOS_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC9251862BB2C6E000ED0347 /* Multi_Acccunt_Login_with_Core_Data__iOS_.xcdatamodel */,
+			);
+			currentVersion = FC9251862BB2C6E000ED0347 /* Multi_Acccunt_Login_with_Core_Data__iOS_.xcdatamodel */;
+			path = Multi_Account_Login_with_Core_Data__iOS_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC9251712BB2C6DF00ED0347 /* Project object */;
+}
