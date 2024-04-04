@@ -46,9 +46,9 @@ This demo project enables an iOS app with Core Data and Cloud Kit capabilities a
   
   - On user signin success, email is stored in User Defaults. This helps to auto-login user next time.
     
-  - On signout, persistent container is cleared, the database associated files are stored in sandbox inside a folder named after each user's emailid, and there is no need to close or relaunch the app.
+  - On signout, persistent container is cleared. The database associated files are stored in sandbox inside a folder named after each user's emailid.
     
-  - On signing with new email, new containner property is initialized with that email. Folder is created in Application Support directory and each user has separate database file.
+  - On signing with new email, new containner property is initialized with that email. Separate folder is created in Application Support directory and each user has separate database file.
 
  ### How to use this Demo
 
