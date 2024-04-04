@@ -74,10 +74,11 @@ This demo project enables an iOS app with Core Data and Cloud Kit capabilities a
      - To check restore worked property, we can go to the Edit screen and check the list of records.
     
      - Screenshots:
-        ![Login](https://github.com/saushar/Single-Device-Multiple-Users-Accounts-CoreData-App-iOS/assets/49163871/eef94c6d-8e54-4897-a690-51fa84c724bd)
-        ![Backup](https://github.com/saushar/Single-Device-Multiple-Users-Accounts-CoreData-App-iOS/assets/49163871/2c475534-5372-4c6c-a53e-8cf4009e52ad)
-        ![Edit](https://github.com/saushar/Single-Device-Multiple-Users-Accounts-CoreData-App-iOS/assets/49163871/e05b71ae-d3ac-489b-96d3-b5d4c31f4d8b)
-       
+    
+        <img src="https://github.com/saushar/Single-Device-Multiple-Users-Accounts-CoreData-App-iOS/assets/49163871/eef94c6d-8e54-4897-a690-51fa84c724bd" width="300" />
+        <img src="https://github.com/saushar/Single-Device-Multiple-Users-Accounts-CoreData-App-iOS/assets/49163871/2c475534-5372-4c6c-a53e-8cf4009e52ad" width="300" />
+        <img src="https://github.com/saushar/Single-Device-Multiple-Users-Accounts-CoreData-App-iOS/assets/49163871/e05b71ae-d3ac-489b-96d3-b5d4c31f4d8b" width="300" />
+    
 
 ### Adapting the code to your own requirements
 
